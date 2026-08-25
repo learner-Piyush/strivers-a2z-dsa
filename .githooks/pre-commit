@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+# Runs on `git commit`. For any newly-staged solution .py file that doesn't
+# already have a "Difficulty:" header, it asks you interactively and inserts
+# one — before the commit completes.
+
+set -euo pipefail
+
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=A -- 'solutions/**/*.py' || true)
+
+if [ -z "$STAGED_FILES" ]; then
+  exit 0
+fi
+
+for FILE in $STAGED_FILES; do
+  if grep -qi "^Difficulty:" "$FILE"; then
+    continue
+  fi
+
+  # Read from the controlling terminal directly, not stdin — stdin isn't
+  # reliably a tty inside git hooks even in a real interactive terminal.
+  if ! exec < /dev/tty 2>/dev/null; then
+    echo ""
+    echo "ERROR: '$FILE' needs a Difficulty header, but this hook has no"
+    echo "terminal to prompt you on (/dev/tty unavailable — likely a GUI"
+    echo "commit, e.g. VS Code's Source Control panel)."
+    echo ""
+    echo "Cancel this commit and instead run, from a real terminal:"
+    echo "  git commit -m \"your message\""
+    exit 1
+  fi
+
+  echo ""
+  echo "New solution file: $FILE"
+  read -rp "  Difficulty (Easy/Medium/Hard): " DIFF
+  read -rp "  Problem title: " TITLE
+  read -rp "  Topic (e.g. Arrays): " TOPIC
+  read -rp "  Source URL: " SOURCE
+
+  TODAY=$(date +%F)
+  HEADER="\"\"\"
+Title: ${TITLE}
+Topic: ${TOPIC}
+Difficulty: ${DIFF}
+Source: ${SOURCE}
+Date: ${TODAY}
+\"\"\"
+
+"
+  TMP=$(mktemp)
+  printf '%s' "$HEADER" > "$TMP"
+  cat "$FILE" >> "$TMP"
+  mv "$TMP" "$FILE"
+
+  git add "$FILE"
+  echo "  -> header added and re-staged."
+done
