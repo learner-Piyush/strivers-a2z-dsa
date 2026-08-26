@@ -22,6 +22,13 @@ solutions/
   01_Learn_the_basics/
     01_Things_to_know_in_Python/
       input_output.py
+      if_elseif.py
+      switch_case.py
+      for_loop.py
+      while_loop.py
+      pass_by_ref.py
+    02_Patterns/
+      pattern_1.py
   ...
 ```
 
