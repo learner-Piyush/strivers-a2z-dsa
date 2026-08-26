@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->12 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->13 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->0 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->12 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->13 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -31,6 +31,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [pattern_4.py](solutions/01_Learn_the_basics/02_Patterns/pattern_4.py) 🟢
     - 📄 [pattern_5.py](solutions/01_Learn_the_basics/02_Patterns/pattern_5.py) 🟢
     - 📄 [pattern_6.py](solutions/01_Learn_the_basics/02_Patterns/pattern_6.py) 🟢
+    - 📄 [pattern_7.py](solutions/01_Learn_the_basics/02_Patterns/pattern_7.py) 🟢
 <!--TREE_END-->
 
 ## Structure
