@@ -31,10 +31,14 @@ for FILE in $STAGED_FILES; do
 
   echo ""
   echo "New solution file: $FILE"
-  read -rp "  Difficulty (Easy/Medium/Hard): " DIFF
-  read -rp "  Problem title: " TITLE
-  read -rp "  Topic (e.g. Arrays): " TOPIC
-  read -rp "  Source URL: " SOURCE
+  printf  "  Difficulty (Easy/Medium/Hard): "
+  read -r DIFF
+  printf  "  Problem title: "
+  read -r TITLE
+  printf  "  Topic (e.g. Arrays): "
+  read -r TOPIC
+  printf  "  Source URL: "
+  read -r SOURCE
 
   TODAY=$(date +%F)
   HEADER="\"\"\"
