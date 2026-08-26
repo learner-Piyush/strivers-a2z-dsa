@@ -13,6 +13,24 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
+## Solutions
+
+<!--TREE_START-->
+- 📁 [01_Learn_the_basics](solutions/01_Learn_the_basics)
+  - 📁 [01_Things_to_know_in_Python](solutions/01_Learn_the_basics/01_Things_to_know_in_Python)
+    - 📄 [input_output.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/input_output.py) 🟢
+    - 📄 [if_elseif.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/if_elseif.py) 🟢
+    - 📄 [switch_case.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/switch_case.py) 🟢
+    - 📄 [for_loop.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/for_loop.py) 🟢
+    - 📄 [while_loop.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/while_loop.py) 🟢
+    - 📄 [pass_by_ref.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/pass_by_ref.py) 🟢
+  - 📁 [02_Patterns](solutions/01_Learn_the_basics/02_Patterns)
+    - 📄 [pattern_1.py](solutions/01_Learn_the_basics/02_Patterns/pattern_1.py) 🟢
+    - 📄 [pattern_2.py](solutions/01_Learn_the_basics/02_Patterns/pattern_2.py) 🟢
+    - 📄 [pattern_3.py](solutions/01_Learn_the_basics/02_Patterns/pattern_3.py) 🟢
+    - 📄 [pattern_4.py](solutions/01_Learn_the_basics/02_Patterns/pattern_4.py) 🟢
+<!--TREE_END-->
+
 ## Structure
 
 Nest folders as deep as the sheet needs — e.g.:
@@ -22,13 +40,6 @@ solutions/
   01_Learn_the_basics/
     01_Things_to_know_in_Python/
       input_output.py
-      if_elseif.py
-      switch_case.py
-      for_loop.py
-      while_loop.py
-      pass_by_ref.py
-    02_Patterns/
-      pattern_1.py
   ...
 ```
 

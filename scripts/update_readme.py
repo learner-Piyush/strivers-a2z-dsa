@@ -19,6 +19,31 @@ MEDIUM_TOTAL = 186
 HARD_TOTAL = 136
 
 DIFFICULTY_RE = re.compile(r"Difficulty:\s*(Easy|Medium|Hard)", re.IGNORECASE)
+DIFFICULTY_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
+
+
+def difficulty_emoji(py_file: Path) -> str:
+    text = py_file.read_text(encoding="utf-8", errors="ignore")
+    match = DIFFICULTY_RE.search(text)
+    if not match:
+        return ""
+    return " " + DIFFICULTY_EMOJI.get(match.group(1).capitalize(), "")
+
+
+def build_tree(directory: Path, prefix: str = "") -> list:
+    if not directory.exists():
+        return []
+    lines = []
+    # folders first, then files, both alphabetical
+    entries = sorted(directory.iterdir(), key=lambda p: (p.is_file(), p.name.lower()))
+    for entry in entries:
+        rel_path = entry.relative_to(REPO_ROOT).as_posix()
+        if entry.is_dir():
+            lines.append(f"{prefix}- 📁 [{entry.name}]({rel_path})")
+            lines.extend(build_tree(entry, prefix + "  "))
+        elif entry.suffix == ".py":
+            lines.append(f"{prefix}- 📄 [{entry.name}]({rel_path}){difficulty_emoji(entry)}")
+    return lines
 
 
 def count_solutions() -> dict:
@@ -57,6 +82,11 @@ def main():
     readme = replace_between(readme, "MEDIUM", f"{counts['Medium']} / {MEDIUM_TOTAL}")
     readme = replace_between(readme, "HARD", f"{counts['Hard']} / {HARD_TOTAL}")
     readme = replace_between(readme, "TOTAL", f"{total_solved} / {total_all}")
+
+    tree_lines = build_tree(SOLUTIONS_DIR)
+    tree_md = "\n" + "\n".join(tree_lines) + "\n" if tree_lines else "\n_No solutions yet._\n"
+    readme = replace_between(readme, "TREE", tree_md)
+
     README_PATH.write_text(readme, encoding="utf-8")
 
     print(f"Easy: {counts['Easy']}/{EASY_TOTAL}")
