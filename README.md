@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->20 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->21 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->0 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->20 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->21 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -31,6 +31,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [pattern_12.py](solutions/01_Learn_the_basics/02_Patterns/pattern_12.py) 🟢
     - 📄 [pattern_13.py](solutions/01_Learn_the_basics/02_Patterns/pattern_13.py) 🟢
     - 📄 [pattern_14.py](solutions/01_Learn_the_basics/02_Patterns/pattern_14.py) 🟢
+    - 📄 [pattern_15.py](solutions/01_Learn_the_basics/02_Patterns/pattern_15.py) 🟢
     - 📄 [pattern_2.py](solutions/01_Learn_the_basics/02_Patterns/pattern_2.py) 🟢
     - 📄 [pattern_3.py](solutions/01_Learn_the_basics/02_Patterns/pattern_3.py) 🟢
     - 📄 [pattern_4.py](solutions/01_Learn_the_basics/02_Patterns/pattern_4.py) 🟢
