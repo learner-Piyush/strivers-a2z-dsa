@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->25 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->26 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->3 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->28 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->29 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -26,14 +26,6 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [while_loop.py](solutions/01_Learn_the_basics/01_Things_to_know_in_Python/while_loop.py) 🟢
   - 📁 [02_Patterns](solutions/01_Learn_the_basics/02_Patterns)
     - 📄 [pattern_1.py](solutions/01_Learn_the_basics/02_Patterns/pattern_1.py) 🟢
-    - 📄 [pattern_2.py](solutions/01_Learn_the_basics/02_Patterns/pattern_2.py) 🟢
-    - 📄 [pattern_3.py](solutions/01_Learn_the_basics/02_Patterns/pattern_3.py) 🟢
-    - 📄 [pattern_4.py](solutions/01_Learn_the_basics/02_Patterns/pattern_4.py) 🟢
-    - 📄 [pattern_5.py](solutions/01_Learn_the_basics/02_Patterns/pattern_5.py) 🟢
-    - 📄 [pattern_6.py](solutions/01_Learn_the_basics/02_Patterns/pattern_6.py) 🟢
-    - 📄 [pattern_7.py](solutions/01_Learn_the_basics/02_Patterns/pattern_7.py) 🟢
-    - 📄 [pattern_8.py](solutions/01_Learn_the_basics/02_Patterns/pattern_8.py) 🟢
-    - 📄 [pattern_9.py](solutions/01_Learn_the_basics/02_Patterns/pattern_9.py) 🟢
     - 📄 [pattern_10.py](solutions/01_Learn_the_basics/02_Patterns/pattern_10.py) 🟢
     - 📄 [pattern_11.py](solutions/01_Learn_the_basics/02_Patterns/pattern_11.py) 🟢
     - 📄 [pattern_12.py](solutions/01_Learn_the_basics/02_Patterns/pattern_12.py) 🟢
@@ -44,9 +36,19 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [pattern_17.py](solutions/01_Learn_the_basics/02_Patterns/pattern_17.py) 🟢
     - 📄 [pattern_18.py](solutions/01_Learn_the_basics/02_Patterns/pattern_18.py) 🟢
     - 📄 [pattern_19.py](solutions/01_Learn_the_basics/02_Patterns/pattern_19.py) 🟢
+    - 📄 [pattern_2.py](solutions/01_Learn_the_basics/02_Patterns/pattern_2.py) 🟢
     - 📄 [pattern_20.py](solutions/01_Learn_the_basics/02_Patterns/pattern_20.py) 🟡
     - 📄 [pattern_21.py](solutions/01_Learn_the_basics/02_Patterns/pattern_21.py) 🟡
     - 📄 [pattern_22.py](solutions/01_Learn_the_basics/02_Patterns/pattern_22.py) 🟡
+    - 📄 [pattern_3.py](solutions/01_Learn_the_basics/02_Patterns/pattern_3.py) 🟢
+    - 📄 [pattern_4.py](solutions/01_Learn_the_basics/02_Patterns/pattern_4.py) 🟢
+    - 📄 [pattern_5.py](solutions/01_Learn_the_basics/02_Patterns/pattern_5.py) 🟢
+    - 📄 [pattern_6.py](solutions/01_Learn_the_basics/02_Patterns/pattern_6.py) 🟢
+    - 📄 [pattern_7.py](solutions/01_Learn_the_basics/02_Patterns/pattern_7.py) 🟢
+    - 📄 [pattern_8.py](solutions/01_Learn_the_basics/02_Patterns/pattern_8.py) 🟢
+    - 📄 [pattern_9.py](solutions/01_Learn_the_basics/02_Patterns/pattern_9.py) 🟢
+  - 📁 [03_Know_Basic_Maths](solutions/01_Learn_the_basics/03_Know_Basic_Maths)
+    - 📄 [count_all_digits_of_a_number.py](solutions/01_Learn_the_basics/03_Know_Basic_Maths/count_all_digits_of_a_number.py) 🟢
 <!--TREE_END-->
 
 ## Structure
