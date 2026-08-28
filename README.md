@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->27 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->28 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->3 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->30 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->31 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -49,6 +49,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [pattern_9.py](solutions/01_Learn_the_basics/02_Patterns/pattern_9.py) 🟢
   - 📁 [03_Know_Basic_Maths](solutions/01_Learn_the_basics/03_Know_Basic_Maths)
     - 📄 [count_all_digits_of_a_number.py](solutions/01_Learn_the_basics/03_Know_Basic_Maths/count_all_digits_of_a_number.py) 🟢
+    - 📄 [palindrome_number.py](solutions/01_Learn_the_basics/03_Know_Basic_Maths/palindrome_number.py) 🟢
     - 📄 [reverse_a_number.py](solutions/01_Learn_the_basics/03_Know_Basic_Maths/reverse_a_number.py) 🟢
 <!--TREE_END-->
 
