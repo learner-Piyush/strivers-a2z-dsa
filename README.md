@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->38 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->39 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->3 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->41 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->42 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -58,6 +58,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
   - 📁 [04_Learn_Basic_Recursion](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion)
     - 📄 [check_if_string_is_palindrome_or_not.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/check_if_string_is_palindrome_or_not.py) 🟢
     - 📄 [factorial_of_a_given_number.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/factorial_of_a_given_number.py) 🟢
+    - 📄 [fibonacci_number.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/fibonacci_number.py) 🟢
     - 📄 [print_1_to_n_using_recursion.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/print_1_to_n_using_recursion.py) 🟢
     - 📄 [print_n_to_1_using_recursion.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/print_n_to_1_using_recursion.py) 🟢
     - 📄 [reverse_an_array.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/reverse_an_array.py) 🟢
