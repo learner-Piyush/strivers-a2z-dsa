@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->40 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->41 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->3 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->43 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->44 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -65,6 +65,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [sum_of_first_n_numbers.py](solutions/01_Learn_the_basics/04_Learn_Basic_Recursion/sum_of_first_n_numbers.py) 🟢
   - 📁 [05_Learn_Basic_Hashing](solutions/01_Learn_the_basics/05_Learn_Basic_Hashing)
     - 📄 [counting_frequencies_of_array_elements.py](solutions/01_Learn_the_basics/05_Learn_Basic_Hashing/counting_frequencies_of_array_elements.py) 🟢
+    - 📄 [highest_occurring_element_in_an_array.py](solutions/01_Learn_the_basics/05_Learn_Basic_Hashing/highest_occurring_element_in_an_array.py) 🟢
 <!--TREE_END-->
 
 ## Structure
