@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->42 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->43 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->3 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->45 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->46 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -68,6 +68,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [highest_occurring_element_in_an_array.py](solutions/01_Learn_the_basics/05_Learn_Basic_Hashing/highest_occurring_element_in_an_array.py) 🟢
 - 📁 [02_Learn_Important_Sorting_Techniques](solutions/02_Learn_Important_Sorting_Techniques)
   - 📁 [01_Sorting-I](solutions/02_Learn_Important_Sorting_Techniques/01_Sorting-I)
+    - 📄 [bubble_sort.py](solutions/02_Learn_Important_Sorting_Techniques/01_Sorting-I/bubble_sort.py) 🟢
     - 📄 [selection_sort.py](solutions/02_Learn_Important_Sorting_Techniques/01_Sorting-I/selection_sort.py) 🟢
 <!--TREE_END-->
 
