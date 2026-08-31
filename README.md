@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->47 / 152<!--EASY_END--> |
+| 🟢 Easy | <!--EASY_START-->52 / 152<!--EASY_END--> |
 | 🟡 Medium | <!--MEDIUM_START-->4 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->51 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->56 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -76,6 +76,13 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [quick_sorting.py](solutions/02_Learn_Important_Sorting_Techniques/02_Sorting-II/quick_sorting.py) 🟢
     - 📄 [recursive_bubble_sort.py](solutions/02_Learn_Important_Sorting_Techniques/02_Sorting-II/recursive_bubble_sort.py) 🟢
     - 📄 [recursive_insertion_sort.py](solutions/02_Learn_Important_Sorting_Techniques/02_Sorting-II/recursive_insertion_sort.py) 🟢
+- 📁 [03_Solve_Problems_on_Arrays_Easy-Medium-Hard](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard)
+  - 📁 [01_Easy](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy)
+    - 📄 [check_if_the_array_is_sorted_ii.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/check_if_the_array_is_sorted_ii.py) 🟢
+    - 📄 [largest_element.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/largest_element.py) 🟢
+    - 📄 [left_rotate_array_by_one.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/left_rotate_array_by_one.py) 🟢
+    - 📄 [remove_duplicates_from_sorted_array.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/remove_duplicates_from_sorted_array.py) 🟢
+    - 📄 [second_largest_element.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/second_largest_element.py) 🟢
 <!--TREE_END-->
 
 ## Structure
