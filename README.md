@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->57 / 152<!--EASY_END--> |
-| 🟡 Medium | <!--MEDIUM_START-->4 / 186<!--MEDIUM_END--> |
+| 🟢 Easy | <!--EASY_START-->59 / 152<!--EASY_END--> |
+| 🟡 Medium | <!--MEDIUM_START-->7 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->61 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->66 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -84,10 +84,16 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [left_rotate_array_by_k_places.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/left_rotate_array_by_k_places.py) 🟢
     - 📄 [left_rotate_array_by_one.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/left_rotate_array_by_one.py) 🟢
     - 📄 [linear_search.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/linear_search.py) 🟢
+    - 📄 [longest_subarray_with_sum_k.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/longest_subarray_with_sum_k.py) 🟡
+    - 📄 [maximum_consecutive_ones.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/maximum_consecutive_ones.py) 🟢
     - 📄 [move_zeros_to_end.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/move_zeros_to_end.py) 🟢
     - 📄 [remove_duplicates_from_sorted_array.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/remove_duplicates_from_sorted_array.py) 🟢
     - 📄 [second_largest_element.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/second_largest_element.py) 🟢
+    - 📄 [single_number_i.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/single_number_i.py) 🟡
     - 📄 [union_of_two_sorted_arrays.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/union_of_two_sorted_arrays.py) 🟢
+  - 📁 [02_Medium](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium)
+    - 📄 [sort_an_array_of_0_s_1_s_and_2_s.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/sort_an_array_of_0_s_1_s_and_2_s.py) 🟡
+    - 📄 [two_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/two_sum.py) 🟢
 <!--TREE_END-->
 
 ## Structure
