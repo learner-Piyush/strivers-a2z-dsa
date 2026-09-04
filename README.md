@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->59 / 152<!--EASY_END--> |
-| 🟡 Medium | <!--MEDIUM_START-->7 / 186<!--MEDIUM_END--> |
+| 🟢 Easy | <!--EASY_START-->60 / 152<!--EASY_END--> |
+| 🟡 Medium | <!--MEDIUM_START-->11 / 186<!--MEDIUM_END--> |
 | 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->66 / 474<!--TOTAL_END--> |
+| **Total** | <!--TOTAL_START-->71 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -92,6 +92,11 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [single_number_i.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/single_number_i.py) 🟡
     - 📄 [union_of_two_sorted_arrays.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/union_of_two_sorted_arrays.py) 🟢
   - 📁 [02_Medium](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium)
+    - 📄 [best_time_to_buy_and_sell_stock.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/best_time_to_buy_and_sell_stock.py) 🟡
+    - 📄 [kadane_s_algorithm.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/kadane_s_algorithm.py) 🟡
+    - 📄 [majority_element_i.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/majority_element_i.py) 🟢
+    - 📄 [next_permutation.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/next_permutation.py) 🟡
+    - 📄 [rearrange_array_elements_by_sign.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/rearrange_array_elements_by_sign.py) 🟡
     - 📄 [sort_an_array_of_0_s_1_s_and_2_s.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/sort_an_array_of_0_s_1_s_and_2_s.py) 🟡
     - 📄 [two_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/two_sum.py) 🟢
 <!--TREE_END-->
