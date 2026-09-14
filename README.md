@@ -6,10 +6,10 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | <!--EASY_START-->60 / 152<!--EASY_END--> |
-| 🟡 Medium | <!--MEDIUM_START-->16 / 186<!--MEDIUM_END--> |
-| 🔴 Hard | <!--HARD_START-->0 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->76 / 474<!--TOTAL_END--> |
+| 🟢 Easy | <!--EASY_START-->61 / 152<!--EASY_END--> |
+| 🟡 Medium | <!--MEDIUM_START-->19 / 186<!--MEDIUM_END--> |
+| 🔴 Hard | <!--HARD_START-->1 / 136<!--HARD_END--> |
+| **Total** | <!--TOTAL_START-->81 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -93,6 +93,7 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [union_of_two_sorted_arrays.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/01_Easy/union_of_two_sorted_arrays.py) 🟢
   - 📁 [02_Medium](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium)
     - 📄 [best_time_to_buy_and_sell_stock.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/best_time_to_buy_and_sell_stock.py) 🟡
+    - 📄 [count_subarrays_with_given_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/count_subarrays_with_given_sum.py) 🟡
     - 📄 [kadane_s_algorithm.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/kadane_s_algorithm.py) 🟡
     - 📄 [leaders_in_an_array.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/leaders_in_an_array.py) 🟡
     - 📄 [longest_consecutive_sequence_in_an_array.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/longest_consecutive_sequence_in_an_array.py) 🟡
@@ -104,6 +105,11 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
     - 📄 [set_matrix_zeroes.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/set_matrix_zeroes.py) 🟡
     - 📄 [sort_an_array_of_0_s_1_s_and_2_s.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/sort_an_array_of_0_s_1_s_and_2_s.py) 🟡
     - 📄 [two_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/02_Medium/two_sum.py) 🟢
+  - 📁 [03_Hard](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard)
+    - 📄 [3_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/3_sum.py) 🟡
+    - 📄 [4_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/4_sum.py) 🟡
+    - 📄 [majority_element_ii.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/majority_element_ii.py) 🔴
+    - 📄 [pascal_s_triangle_i.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/pascal_s_triangle_i.py) 🟢
 <!--TREE_END-->
 
 ## Structure
