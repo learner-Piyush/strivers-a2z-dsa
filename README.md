@@ -7,9 +7,9 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
 | Difficulty | Solved |
 |---|---|
 | 🟢 Easy | <!--EASY_START-->61 / 152<!--EASY_END--> |
-| 🟡 Medium | <!--MEDIUM_START-->19 / 186<!--MEDIUM_END--> |
-| 🔴 Hard | <!--HARD_START-->1 / 136<!--HARD_END--> |
-| **Total** | <!--TOTAL_START-->81 / 474<!--TOTAL_END--> |
+| 🟡 Medium | <!--MEDIUM_START-->22 / 186<!--MEDIUM_END--> |
+| 🔴 Hard | <!--HARD_START-->2 / 136<!--HARD_END--> |
+| **Total** | <!--TOTAL_START-->85 / 474<!--TOTAL_END--> |
 
 *Counters update automatically on every push — see `scripts/update_readme.py`. If the sheet grows, edit the denominators in this table (search for `EASY_TOTAL` etc. in `scripts/update_readme.py`) and they'll stay in sync.*
 
@@ -108,7 +108,11 @@ Daily DSA practice (Mon–Sat) following the [Striver A2Z Sheet](https://takeufo
   - 📁 [03_Hard](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard)
     - 📄 [3_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/3_sum.py) 🟡
     - 📄 [4_sum.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/4_sum.py) 🟡
+    - 📄 [count_subarrays_with_given_xor_k.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/count_subarrays_with_given_xor_k.py) 🔴
+    - 📄 [largest_subarray_with_sum_0.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/largest_subarray_with_sum_0.py) 🟡
     - 📄 [majority_element_ii.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/majority_element_ii.py) 🔴
+    - 📄 [merge_overlapping_subintervals.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/merge_overlapping_subintervals.py) 🟡
+    - 📄 [merge_two_sorted_arrays_without_extra_space.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/merge_two_sorted_arrays_without_extra_space.py) 🟡
     - 📄 [pascal_s_triangle_i.py](solutions/03_Solve_Problems_on_Arrays_Easy-Medium-Hard/03_Hard/pascal_s_triangle_i.py) 🟢
 <!--TREE_END-->
 
